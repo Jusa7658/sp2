@@ -32,7 +32,7 @@ const client = new MongoClient(uri, {
 
 //määritellään tietokannan ja kokoelman nimi sekä dataobjekti sensoridatan käsittelyyn
 const myDB = client.db("sensordatapilvi");
-const myColl = myDB.collection("sensordatapilvitest");
+const myColl = myDB.collection("autoupdatetest");
 var obj;
 
 //odotetaan dataa välityspalvelimelta ja viedään data tietokantaan
